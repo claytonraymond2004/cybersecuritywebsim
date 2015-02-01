@@ -12,8 +12,8 @@ function changeAddressBar(protocol, url, trusted) {
 		address += "https-fail";
 		
 	address += '">' + protocol + '</span>://' + url;
-	
-	address = address.substring(0, 100)
+	if(address.length > 100)
+	   address = address.substring(0, 100) + "...";
 	
 	document.getElementById("url-bar").innerHTML = address;
 }
