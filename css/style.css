@@ -36,6 +36,10 @@ body {
 	text-decoration: none;
 }
 
+.tab.current {
+    background-color: #CCCCCC;
+}
+
 #window-controls {
 	display: inline;
 	text-align: right;
