@@ -10,7 +10,7 @@
 <link href="skinCommon_modt_01411356441.css" rel="stylesheet" type="text/css" media="all"/>
 <title>PersonalID Step</title>
 <script>
-    parent.changeAddressBar("https", "onlinebanking.usbank.com/Auth/Login?redirect=internet_banking_logon", true, 150);
+    parent.changeAddressBar("https", "onlinebanking.u.s.bank.com/Auth/Login?redirect=internet_banking_logon", true, 150);
     parent.setSiteTabTitle("Log In - US Bank");
 </script>
 </head>
@@ -40,7 +40,7 @@
     <div class="clear">
     </div>
     <div id="headerComponent" class="HeaderBar">
-        <span>Log In to Access My Accounts</span>
+        <span style='font-family: Tahoma, Geneva, sans-serif'>Log In to Access My Accounts</span>
     </div>
     <div class="MainContainer">
         <div>
@@ -56,19 +56,27 @@
                         <b>Personal ID </b>
                     </p>
                 </div>
-                <div>               
+                <div>
                     <input type="text" name="PersonalId" id="txtPersonalId" class="required matchlen matchregx" autocomplete="off" />
+                </div>
+                <div>
+                    <p>
+                        <b>Password </b>
+                    </p>
+                </div>
+                <div>
+                    <input type="password" name="pass" id="txtPersonalId" class="required matchlen matchregx" autocomplete="off" />
                 </div>
                 <div>
                     <a onmouseleave="parent.changeLinkHover('&nbsp;')" onmouseover="parent.changeLinkHover('https://onlinebanking.usbank.com/Auth/Landingpage.aspx?La&amp;type=pid')" href="not-supported.html">
                         Forgot Personal ID?</a></div>
                 <div>
-                    <input type="submit" id="btnContinue" value="Continue" />
+                    <input type="submit" id="btnContinue" value="Login" />
                 </div>
             </div>
             <br />
             <div class="ContentMiddle" id="TnTdivTop">
-                <h1>Log in to access your checking, savings, credit card, and mortgage accounts with U.S. Bank and your brokerage accounts with our affiliate U.S. Bancorp Investments.</h1>
+                <h1 style='font-family: "Times New Roman", Georgia, Serif'>Log in to access your checking, savings, credit card, and mortgage accounts with U.S. Bank and your brokerage accounts with our affiliate U.S. Bancorp Investments.</h1>
             </div>
         </div>
         <div class="clear">
@@ -122,13 +130,9 @@
 					<span style="padding: 0px 6px">•</span> Not Bank Guaranteed 
 					<span style="padding: 0px 6px">•</span> Not insured by any Federal Government Agency
 				</p>
-			</div> <br /> 
-				<div style="color:#333333;"><p style="font-size:10px; font-weight:bold; line-height:1; margin:0px 0px 0px">For U.S. Bank:</p><p style="font-size:10px; line-height:1; margin: 10px 0px 0px"><img src="EqualHousingLender1.png" alt="Equal Housing Lender" /> Equal Housing Lender. Deposit products offered by U.S. Bank National Association. Member FDIC</p><p style="font-size:10px; line-height:1; margin: 10px 0px 0px">U.S. Bank is not responsible for and does not guarantee the products, services or performance of U.S. Bancorp Investments.</p></div>
-			  <br /> 
-			<div style="color:#333333;"><p style="font-size:10px; font-weight:bold; line-height:1; margin:0px 0px 0px">For U.S. Bancorp Investments:</p><p style="font-size:10px; line-height:1.5; margin:10px 0px 0px">Investment products and services are available through U.S. Bancorp Investments, the marketing name for U.S. Bancorp Investments, Inc., member <a style="font-size:10px; text-decoration: underline;" onmouseleave="parent.changeLinkHover('&nbsp;')" onmouseover="parent.changeLinkHover('http://www.finra.org/')" title="FINRA" href="not-supported.html" target="_blank">FINRA</a> and <a style="font-size:10px; text-decoration: underline;" onmouseover="parent.changeLinkHover('http://www.sipc.org/')" title="SIPC" href="not-supported.html" target="_blank">SIPC</a>, an investment adviser and a brokerage subsidiary of U.S. Bancorp and affiliate of U.S. Bank.</p><p style="font-size:10px; line-height:2; margin:10px 0px 0px">The Financial Industry Regulatory Authority (FINRA) Rule 2267 provides for BrokerCheck to allow investors to learn about the professional background, business practices, and conduct of FINRA member firms or their brokers. To request such information, contact FINRA toll-free 1.800.289.9999 or via www.finra.org. An investor brochure describing BrokerCheck is also available through FINRA</p></div>
+			</div>
 		 </div>
             </div>
-        </div>
-    </div>
+     </div>
 </body>
 </html>

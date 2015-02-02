@@ -24,3 +24,7 @@ function changeAddressBarSimple(string) {
 	   string = string.substring(0, trimlength) + "...";
 	document.getElementById("url-bar").innerHTML = string;
 }
+
+function setSiteTabTitle(string) {
+	document.getElementById("site").innerHTML = string;
+}
