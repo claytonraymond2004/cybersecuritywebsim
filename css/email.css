@@ -30,6 +30,7 @@
 	margin-top: 5px;
 	margin-left: 5px;
 	padding-bottom: 10px;
+	padding-right: 1px;
 	margin-right: 0px;
 	float: right;
 }
@@ -51,7 +52,7 @@
 	border-color: #D3D3D3;
 	border-style: solid;
 	padding: 5px;
-	width: 755px;
+	width: 750px;
 	height: 100%;
 	vertical-align: top;
 }
