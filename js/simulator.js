@@ -4,17 +4,16 @@ function changeLinkHover(string) {
 	document.getElementById("hover-link").innerHTML = string;
 }
 
-function changeAddressBar(protocol, url, trusted) {
+function changeAddressBar(protocol, url, trusted, trim) {
     var address = '<span id="';
     if(trusted == true)
         address += "https-verified";
     else
         address += "https-fail";
     address += '">' + protocol + '</span>://' + url;
-    
-    var trimlength = 75;
-	if(address.length > trimlength)
-	   address = address.substring(0, trimlength) + "...";
+
+	if(address.length > trim)
+	   address = address.substring(0, trim) + "...";
 	
 	document.getElementById("url-bar").innerHTML = address;
 }
