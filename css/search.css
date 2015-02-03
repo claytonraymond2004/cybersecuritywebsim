@@ -29,6 +29,8 @@ body {
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 #searchbtn {
@@ -47,6 +49,8 @@ body {
     -webkit-border-bottom-right-radius: 5px;
     -moz-border-radius-bottomright: 5px;
     -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin: 0px;
     padding: 0;
 }
@@ -62,9 +66,8 @@ body {
     border-width: 2px;
     background-color: #9f9f9f;
     -webkit-border-radius: 5px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 5px;
     color: #fff;
     margin-left: 12px;
 }
@@ -109,9 +112,8 @@ body {
     width: 120px;
     text-align: center;
     -webkit-border-radius: 3px;
-    -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    -moz-border-radius: 3px;
+    border-radius: 3px;
     border-style: solid;
     border-color: #cbcbcb;
     border-width: 2px;

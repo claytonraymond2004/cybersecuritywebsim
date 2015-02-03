@@ -26,9 +26,8 @@ body {
     width: 120px;
     text-align: center;
     -webkit-border-radius: 3px;
-    -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    -moz-border-radius: 3px;
+    border-radius: 3px;
     border-style: solid;
     border-color: #cbcbcb;
     border-width: 2px;
@@ -52,9 +51,8 @@ body {
     border-color: #e0dfdf;
     border-width: 2px;
     -webkit-border-radius: 5px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #spamBtn span {
@@ -72,9 +70,8 @@ body {
     border-color: #e0dfdf;
     border-width: 2px;
     -webkit-border-radius: 5px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #legitBtn span {
@@ -93,9 +90,8 @@ body {
     border-width: 2px;
     background-color: #9f9f9f;
     -webkit-border-radius: 5px;
-    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 5px;
     margin-left: 12px;
 }
 

@@ -51,6 +51,10 @@ body {
     background-color: #CCCCCC;
 }
 
+#siteTitle {
+    display: inline-block;
+}
+
 #window-controls {
 	display: inline;
 	text-align: right;

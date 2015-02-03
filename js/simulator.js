@@ -26,5 +26,5 @@ function changeAddressBarSimple(string) {
 }
 
 function setSiteTabTitle(string) {
-	document.getElementById("site").innerHTML = string;
+	document.getElementById("siteTitle").innerHTML = string;
 }
