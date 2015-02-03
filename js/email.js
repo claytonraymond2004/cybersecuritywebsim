@@ -16,3 +16,8 @@ function nextEmail() {
         document.getElementById("mail-content-" + email.toString()).style.display = "block";
     }
 }
+
+function setHeader(from, subject) {
+    $('[id^=from]').text = from;
+    $('[id^=subject]').text = subject;
+}
