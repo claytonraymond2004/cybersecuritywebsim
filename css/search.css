@@ -12,7 +12,7 @@ body {
 	display: inline-block;
 	background-Color: #D8D8D8;
 	margin-top: 5px;
-	width: 730px;
+	width: 720px;
 	padding: 5px;
 	color: #000;
 }
@@ -26,20 +26,22 @@ body {
 #resultList {
 	display: block;
 	float: left;
-	margin-left: 20px;
 }
 
 #result {
+	font-size: 125%;
 	color: blue;
 	padding: 2px;
 	margin-top: 10px;
 }
 
 #resultText {
+	font-size: 75%;
 	margin: 2px;
 }
 
 #resultLink {
+	font-size: 75%;
 	color: green;
 	margin: 2px;
 }
