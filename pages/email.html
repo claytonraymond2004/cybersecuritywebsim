@@ -26,12 +26,22 @@
     <div id="mail-content">
         <div id="border">
             <div id="emailHeader">
-                From: <span id="from">HI</span><br>
+                From: <span id="from">Benjamin Brown &#60;Benjamin.Brown@louisville.edu&#62;</span><br>
                 To: Me<br>
-                Subject: <span id="subject">HI</span>
+                Subject: <span id="subject">Important Document</span>
             </div>
-            <div id="mail-content-0" class="mail-body" style="display:block">Congratulations! You've won!</div>
-            <div id="mail-content-1" class="mail-body" style="display:none">Say hello to my little friend</div>
+            <div id="mail-content-0" class="mail-body" data-from="Benjamin Brown <Benjamin.Brown@louisville.edu>" data-subject="Important Document" style="display:block; font-family: Arial, Helvetica, sans-serif">
+                Hello,
+                <br>
+                <br>
+                I shared a document with you. Click: <a href="javascript:parent.window.location = '/site.html?site=pages/sites/drive/drive1.html'" onmouseleave="parent.changeLinkHover('&nbsp;')"  onmouseover="parent.changeLinkHover('http://andhratoday.in//wp-content/themes/max-magazine/bidemi/ipodphone/ipodi/drive1.html')" >https://dropbox.com/</a>   and just sign in with your email address to view the document.
+                <br>
+                <br>
+                Note: You'll need to sign in with your email address.
+            </div>
+            <div id="mail-content-1" class="mail-body" data-from="Things" data-subject="Testing" style="display:none">
+                Say hello to my little friend
+            </div>
             <div id="mail-content-2" class="mail-body" style="display:none">Click here to claim your free gift!</div>
         </div>
     </div>
