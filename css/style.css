@@ -22,13 +22,23 @@ body {
 	background: #4272C9;
 }
 
+#tabs {
+    display: inline-block;
+    padding-left: 5px;
+}
+
 .tab {
 	display: inline-block;
 	background-color: #A4A4A4;
 	width: 150px;
 	padding: 5px;
 	margin-top: 5px;
-	margin-left: 5px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .tab:link, .tab:visited , .tab:active, .tab:hover  {
@@ -68,7 +78,7 @@ body {
 	display: inline-block;
 	background-color: #D8D8D8;
 	margin-top: 5px;
-	width: 680px;
+	width: 675px;
 	padding: 5px;
 	color: #000;
 }
@@ -84,8 +94,7 @@ body {
 #content {
 	background-color: #fff;
 	color: #000;
-	margin: 5px;
-	height: 475px;
+	height: 480px;
 }
 
 iframe {
