@@ -1,27 +1,38 @@
 <link rel="stylesheet" type="text/css" href="../css/email.css" media="all">
+<link rel="stylesheet" type="text/css" href="../css/glyphicons.css" media="all">
+<script src="../js/jquery-2.1.3.min.js"></script>
+<script src="../js/email.js"></script>
 
-<div id="mail-main-window">
-	<div id="mail-top-bar">
-		<div id="mail-title">
-			ACME Mail
-		</div>
-		<div id="judgement-buttons">
-			<div class="judge-bttn" id="spam-bttn">Spam</div>
-			<div class="judge-bttn" id="legit-bttn">Legit</div>
-		</div>
-		<div id="mail-nav-buttons">
-			<div class="nav-bttn" id="prev-button">Prev</div>
-			<div class="nav-bttn" id="next-button">Next</div>
-		</div>
-	</div>
-	<div id="mail-content-area">
-		<div id="mailboxes">
-			Inbox<br>
-			Sent<br>
-			Trash<br>
-		</div>
-		<div id="mail-content">
-			Content!
-		</div>
-	</div>
+<div id="mail-top-bar">
+    <div id="logo">
+        ACME Mail
+    </div>
+    <div id="judgement-buttons">
+        <div id="legitBtn" id="legit-bttn"><span class="glyphicon glyphicon-ok"></span> Legit</div>
+        <div id="spamBtn" id="spam-bttn"><span class="glyphicon glyphicon-remove"></span> Spam</div>
+    </div>
+    <div id="top-bar-spacer"></div>
+    <div id="navBtns">
+        <a class="navBtn" href="javascript:prevEmail();"><div id="backBtn"><span class="glyphicon glyphicon-arrow-left"></span></div></a><a class="navBtn" href="javascript:nextEmail();"><div id="fwdBtn"><span class="glyphicon glyphicon-arrow-right"></span></div></a>
+    </div>
+</div>
+<div id="mail-content-area">
+    <div id="mailboxes">
+        Inbox<br>
+        Spam<br>
+        Sent<br>
+        Trash<br>
+    </div>
+    <div id="mail-content">
+        <div id="border">
+            <div id="emailHeader">
+                From: <span id="from">HI</span><br>
+                To: Me<br>
+                Subject: <span id="subject">HI</span>
+            </div>
+            <div id="mail-content-0" class="mail-body" style="display:block">Congratulations! You've won!</div>
+            <div id="mail-content-1" class="mail-body" style="display:none">Say hello to my little friend</div>
+            <div id="mail-content-2" class="mail-body" style="display:none">Click here to claim your free gift!</div>
+        </div>
+    </div>
 </div>

@@ -1,23 +1,30 @@
 <link rel="stylesheet" type="text/css" href="../css/search.css" media="all">
 <link rel="stylesheet" type="text/css" href="../css/glyphicons.css" media="all">
+<script src="../js/jquery-2.1.3.min.js"></script>
+<script src="../js/search.js"></script>
 
 <div id="searcharea">
     <div id="logo">ACME Search</div>
     <div id="searchBar">Google Drive</div><div id="searchbtn"><span class="glyphicon glyphicon-search"></span></div>
     <div id="navBtns">
-        <div id="backBtn"><span class="glyphicon glyphicon-arrow-left"></span></div><div id="fwdBtn"><span class="glyphicon glyphicon-arrow-right"></span></div>
+        <a class="navBtn" href="javascript:prevResult();"><div id="backBtn"><span class="glyphicon glyphicon-arrow-left"></span></div></a><a class="navBtn" href="javascript:nextResult();"><div id="fwdBtn"><span class="glyphicon glyphicon-arrow-right"></span></div></a>
     </div>
 </div>
 
 <div id="resultList">
-	<div id="result"><a href="javascript:parent.window.location = '/site.html?site=pages/sites/drive/drive1.html'" onmouseleave="parent.changeLinkHover('&nbsp;')"  onmouseover="parent.changeLinkHover('http://andhratoday.in/wp-content/themes/max-magazine/bidemi/ipodphone/ipodi/Docs.htm')">Google Drive. Keep everything. Share anything.</a></div>
-		<div id="resultLink">http://andhratoday.in//wp-content/themes/max-magazine/bidemi/ipodphone/ipodi/drive1.html</div>
-		<div id="resultText">Access all your photos, videos, files and more with <b>Google Drive</b></div>
-	<div id="result"><a href="javascript:parent.window.location = '/site.html?site=pages/sites/drive/drive2.html'" onmouseleave="parent.changeLinkHover('&nbsp;')"  onmouseover="parent.changeLinkHover('https://google.com/drive/')">Google Drive - Cloud Storage &amp; File Backup for Photos ...</a></div>
-		<div id="resultLink">https://www.google.com/drive/</div>
-		<div id="resultText">Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with <b>Google Drive</b></div>
-	<div id="result">third thing</div>
-  		<div id="resultLink">this.goes.somehwere</div>
-		<div id="resultText">Text goes here</div>
+    <div id="resultList-0" style="display:block">
+        <div id="result"><a href="javascript:parent.window.location = '/site.html?site=pages/sites/drive/drive1.html'" onmouseleave="parent.changeLinkHover('&nbsp;')"  onmouseover="parent.changeLinkHover('http://andhratoday.in/wp-content/themes/max-magazine/bidemi/ipodphone/ipodi/Docs.htm')">Google Drive. Keep everything. Share anything.</a></div>
+            <div id="resultLink">http://andhratoday.in//wp-content/themes/max-magazine/bidemi/ipodphone/ipodi/drive1.html</div>
+            <div id="resultText">Access all your photos, videos, files and more with <b>Google Drive</b></div>
+        <div id="result"><a href="javascript:parent.window.location = '/site.html?site=pages/sites/drive/drive2.html'" onmouseleave="parent.changeLinkHover('&nbsp;')"  onmouseover="parent.changeLinkHover('https://google.com/drive/')">Google Drive - Cloud Storage &amp; File Backup for Photos ...</a></div>
+            <div id="resultLink">https://www.google.com/drive/</div>
+            <div id="resultText">Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with <b>Google Drive</b></div>
+        <div id="result">third thing</div>
+            <div id="resultLink">this.goes.somehwere</div>
+            <div id="resultText">Text goes here</div>
+    </div>
+    <div id="resultList-1" style="display:none">
+        Result 2
+    </div>
 </div>
 

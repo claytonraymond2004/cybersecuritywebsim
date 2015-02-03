@@ -16,7 +16,7 @@ body {
 #searchBar {
 	display: inline-block;
 	margin-top: 5px;
-	width: 570px;
+	width: 565px;
     padding-left: 5px;
     color: #000;
     background: #fff;
@@ -96,15 +96,25 @@ body {
     line-height: 2.5em; 
 }
 
+.navBtn:link, .navBtn:visited , .navBtn:active, .navBtn:hover  {
+	color: #fff;
+	text-decoration: none;
+}
+
 #logo {
 	display: inline-block;
 	background-color: #00cc00;
-    line-height: 2.5em;
-    padding: 0px 10px 0px 10px;
+    color: #fff;
+    line-height: 3em;
+    width: 120px;
+    text-align: center;
     -webkit-border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -moz-border-radius: 3px;
+    border-style: solid;
+    border-color: #cbcbcb;
+    border-width: 2px;
 }
 
 #resultList {
