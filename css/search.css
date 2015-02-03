@@ -1,31 +1,117 @@
 body {
 	font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#page {
-	width: 100%;
-	height: 100%;
-	background: #E6E6E6;
+#searcharea {
+    background-color: #ebebeb;
+    height: 50px;
+    border-bottom-style: solid;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    padding: 10px;
 }
 
 #searchBar {
 	display: inline-block;
-	background-Color: #D8D8D8;
 	margin-top: 5px;
-	width: 720px;
-	padding: 5px;
-	color: #000;
+	width: 570px;
+    padding-left: 5px;
+    color: #000;
+    background: #fff;
+    line-height: 2.5em;
+    border-style: solid;
+    border-right-style: none;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-topleft: 5px;
+}
+
+#searchbtn {
+    display: inline-block;
+    color: #fff;
+    background-color: #4485F3;
+    height: 2.5em;
+    line-height: 2.5em;
+    width: 50px;
+    text-align: center;
+    border-style: solid;
+    border-left-style: none;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-topright: 5px;
+    margin: 0px;
+    padding: 0;
+}
+
+#searchbtn span {
+    line-height: 2.5em; 
+}
+
+#navBtns {
+    display: inline-block; 
+    border-style: solid;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    background-color: #9f9f9f;
+    -webkit-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    margin-left: 12px;
+}
+
+#backBtn {
+    display: inline-block; 
+    border-right-style: solid;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    height: 2.5em;
+    line-height: 2.5em;
+    width: 50px;
+    text-align: center;
+}
+
+#backBtn span {
+    line-height: 2.5em; 
+}
+
+#fwdBtn {
+    display: inline-block; 
+    height: 2.5em;
+    line-height: 2.5em;
+    width: 50px;
+    text-align: center;
+}
+
+#fwdBtn span {
+    line-height: 2.5em; 
 }
 
 #logo {
 	display: inline-block;
 	background-color: #00cc00;
-	padding: 10px;
+    line-height: 2.5em;
+    padding: 0px 10px 0px 10px;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -moz-border-radius: 3px;
 }
 
 #resultList {
 	display: block;
 	float: left;
+    margin: 10px;
+    padding: 0;
 }
 
 #result {
