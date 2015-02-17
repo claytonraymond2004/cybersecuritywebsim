@@ -119,6 +119,15 @@ body {
     border-width: 2px;
 }
 
+.entry {
+    margin-top: 10px;
+}
+
+#resultBlock {
+    display: inline-block;
+    width: 95%;
+}
+
 #resultList {
 	display: block;
 	float: left;
@@ -130,7 +139,6 @@ body {
 	font-size: 125%;
 	color: blue;
 	padding: 2px;
-	margin-top: 10px;
 }
 
 #resultText {
@@ -142,4 +150,56 @@ body {
 	font-size: 75%;
 	color: green;
 	margin: 2px;
+}
+
+.judgement-buttons {
+    display: inline-block; 
+    color: #fff;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+#spamBtn {
+    background-color: #f8c900;
+    border-width: 2px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border-style: solid;
+    border-top-style: none;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottoright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#spamBtn span {
+    line-height: 30px; 
+}
+
+#legitBtn {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    background-color: #1fdd06;
+    border-style: solid;
+    border-bottom-style: none;
+    border-color: #e0dfdf;
+    border-width: 2px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#legitBtn span {
+    line-height: 30px; 
 }
