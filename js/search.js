@@ -2,7 +2,7 @@ var search = 0;
 
 $( document ).ready(function() {
     //set up search
-    if(localStorage.getItem("searchpage") == 'undefined') {
+    if(localStorage.getItem("searchpage") == null) {
         localStorage.setItem("searchpage", 0);
     } else {
         search = localStorage.getItem("searchpage");
