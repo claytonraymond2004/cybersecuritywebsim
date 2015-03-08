@@ -126,6 +126,7 @@ body {
 #resultBlock {
     display: inline-block;
     width: 95%;
+    min-height: 85px;
 }
 
 #resultList {
