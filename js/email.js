@@ -1,25 +1,41 @@
 var email = 0;
 
+$( document ).ready(function() {
+    //set up search
+    if(localStorage.getItem("emailpage") == null) {
+        localStorage.setItem("emailpage", 0);
+    } else {
+        email = localStorage.getItem("emailpage");
+    }
+
+    var from = document.getElementById("mail-content-" + email).getAttribute("data-from");
+    var subject = document.getElementById("mail-content-" + email).getAttribute("data-subject");
+    setHeader(from, subject);
+    document.getElementById("mail-content-" + email).style.display = "block";
+});
+
 function prevEmail() {
     if(email > 0) {
-        document.getElementById("mail-content-" + email.toString()).style.display = "none";
+        document.getElementById("mail-content-" + email).style.display = "none";
         email--;
-        var from = document.getElementById("mail-content-" + email.toString()).getAttribute("data-from");
-        var subject = document.getElementById("mail-content-" + email.toString()).getAttribute("data-subject");
+        var from = document.getElementById("mail-content-" + email).getAttribute("data-from");
+        var subject = document.getElementById("mail-content-" + email).getAttribute("data-subject");
         setHeader(from, subject);
-        document.getElementById("mail-content-" + email.toString()).style.display = "block";
+        document.getElementById("mail-content-" + email).style.display = "block";
+        localStorage.setItem("emailpage", email);
     }
 }
 
 function nextEmail() {
     var contentItems = $('[id^=mail-content-]');
     if(email < contentItems.length - 2) {
-        document.getElementById("mail-content-" + email.toString()).style.display = "none";
+        document.getElementById("mail-content-" + email).style.display = "none";
         email++;
-        var from = document.getElementById("mail-content-" + email.toString()).getAttribute("data-from");
-        var subject = document.getElementById("mail-content-" + email.toString()).getAttribute("data-subject");
+        var from = document.getElementById("mail-content-" + email).getAttribute("data-from");
+        var subject = document.getElementById("mail-content-" + email).getAttribute("data-subject");
         setHeader(from, subject);
-        document.getElementById("mail-content-" + email.toString()).style.display = "block";
+        document.getElementById("mail-content-" + email).style.display = "block";
+        localStorage.setItem("emailpage", email);
     }
 }
 
