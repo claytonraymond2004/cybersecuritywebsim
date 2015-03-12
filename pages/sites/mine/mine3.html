@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Minecraft</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <script>
+            parent.changeAddressBarSimple("https://minecraft.net/", 100);
+            parent.setSiteTabTitle("Minecraft");
+        </script>
+        <style>
+            body {
+                background-image: url("minecraft.png");
+                background-size: 100%;
+                height: 1045px;
+            }
+            .link {
+                position: relative;
+                top:407px;
+                left: 675px;
+                width: 100px;
+                height: 15px;
+            }
+            a:link {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="mine1.html" onmouseleave="parent.changeLinkHover('&nbsp;')"  onmouseover="parent.changeLinkHover('https://minecraft.net/download')"><div class="link">&nbsp;</div></a>
+    </body>
+</html>
