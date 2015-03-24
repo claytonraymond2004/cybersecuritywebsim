@@ -26,7 +26,7 @@ function prevResult() {
 
 function nextResult() {
     var contentItems = $('[id^=resultList-]');
-    if(search < contentItems.length-1) {
+    if(search < 4 /*contentItems.length-1*/) {
         document.getElementById("resultList-" + search).style.display = "none";
         search++;
         var query = document.getElementById("resultList-" + search).getAttribute("data-query");
